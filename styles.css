@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-section {
+    margin-top: 30px;
+}
+
+#user-input {
+    width: 80%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#send-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.output-section {
+    margin-top: 40px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.output-message {
+    margin-bottom: 20px;
+}
+
+.output-message.user {
+    text-align: right;
+    color: #1a73e8;
+}
+
+.output-message.ai {
+    text-align: left;
+    color: #333;
+}
