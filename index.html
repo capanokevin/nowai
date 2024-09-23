@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
-    <title>Il mio primo sito su Netlify</title>
+    <meta charset="UTF-8">
+    <title>Demo AI App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Ciao, mondo!</h1>
-    <p>Questo è il mio primo sito ospitato su Netlify.</p>
+    <div class="container">
+        <h1>Benvenuto nella Demo AI</h1>
+        <div class="input-section">
+            <textarea id="user-input" placeholder="Scrivi qui..."></textarea>
+            <button id="send-btn">Invia</button>
+        </div>
+        <div class="output-section" id="output-section">
+            <!-- Le risposte dell'AI appariranno qui -->
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
